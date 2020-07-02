@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather App</title>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <link href="src/style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+
+</head>
+
+<body>
+  <div class="container">
+    <form id="user-City">
+      <div class="form-row">
+        <div class="col">
+          <input id="Search-Input" type="text" class="form-control" autocomplete="off" placeholder="Change City"
+            autofocus="on">
+        </div>
+        <div class="col">
+          <input type="submit" id="search-form" value="search" class="btn btn-primary mb-2"></input>
+        </div>
+        <button class="btn btn-primary mb-2"> Current Location</button>
+      </div>
+    </form>
+
+    <h1 id="city-search"> </h1>
+    <h3 id="date-time"></h3>
+    <img src="media/sunny.png" alt="sunny">
+    <h4 id="convert-temp"> 22 °C | <a href="#" id="farenheit">°F</a> </h4>
+    <div class="row">
+      <div class="col-6">
+        Temperature
+      </div>
+      <div class="col-6">
+        <ul>
+          <li> Precipitation: 2% </li>
+          <li> Humidity: 45% </li>
+          <li> Wind Speed: 5mph </li>
+        </ul>
+      </div>
+    </div>
+    <br />
+    <hr />
+    <div class="row" id="forecast">
+      <div class="col-2">
+        monday <br />
+        <img src="media/cloudy.png" alt="cloudy">
+        24°C | 20°C
+      </div>
+      <div class="col-2">
+        tuesday <br />
+        <img src="media/partly_cloudy.png" alt="partlycloudy">
+        26°C | 21°C
+      </div>
+      <div class="col-2">
+        wednesday <br />
+        <img src="media/rain_s_cloudy.png" alt="rainy">
+        21°C | 18°C
+      </div>
+      <div class="col-2">
+        thursday <br />
+        <img src="media/sunny_s_cloudy.png" alt="sunCloud">
+        27°C | 24°C
+      </div>
+      <div class="col-2">
+        friday <br />
+        <img src="media/thunderstorms.png" alt="thunderstorm">
+        24°C | 20°C
+      </div>
+
+    </div>
+
+  </div>
+
+  </div>
+  </div>
+
+
+  </div>
+  <script src="src/apps.js"></script>
+</body>
+
+</html>

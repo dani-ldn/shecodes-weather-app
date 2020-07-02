@@ -1,0 +1,29 @@
+.container {
+  background: linear-gradient(#fad0c4, #ffd1ff);
+  font-family: monospace;
+  padding-bottom: 50px;
+  margin-top: 10px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1140px;
+  min-width: 1200px;
+  border-radius: 12px;
+}
+}
+
+h1 {
+  padding: 10px 0;
+}
+
+form {
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+button {
+  display: block;
+}
